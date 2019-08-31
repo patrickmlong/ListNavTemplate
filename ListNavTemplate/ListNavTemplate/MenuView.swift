@@ -13,7 +13,7 @@ struct MenuView: View {
     var body: some View {
         List {
             link(icon:"calendar", label: "Regression",
-                 destination: AppointmentListView())
+                 destination: RegressionListView())
             link(icon: "list.bullet", label: "Classification",
                  destination: AppointmentListView())
             link(icon: "rectangle.stack.person.crop", label: "Contacts",

@@ -17,6 +17,7 @@
 		2220DCA823177E7600C67525 /* AppointmentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2220DCA123177E7500C67525 /* AppointmentListView.swift */; };
 		2220DCA923177E7600C67525 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2220DCA223177E7600C67525 /* MenuView.swift */; };
 		2220DCAA23177E7600C67525 /* RegressionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2220DCA323177E7600C67525 /* RegressionListView.swift */; };
+		2220DCAC231A1DC500C67525 /* RegDest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2220DCAB231A1DC500C67525 /* RegDest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		2220DCA123177E7500C67525 /* AppointmentListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentListView.swift; sourceTree = "<group>"; };
 		2220DCA223177E7600C67525 /* MenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		2220DCA323177E7600C67525 /* RegressionListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegressionListView.swift; sourceTree = "<group>"; };
+		2220DCAB231A1DC500C67525 /* RegDest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegDest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,13 +66,14 @@
 		2220DC8823177E0F00C67525 /* ListNavTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				2220DC9D23177E7500C67525 /* AppDelegate.swift */,
-				2220DCA123177E7500C67525 /* AppointmentListView.swift */,
-				2220DCA223177E7600C67525 /* MenuView.swift */,
-				2220DCA323177E7600C67525 /* RegressionListView.swift */,
 				2220DC9E23177E7500C67525 /* RootView.swift */,
-				2220DC9F23177E7500C67525 /* SceneDelegate.swift */,
+				2220DCA223177E7600C67525 /* MenuView.swift */,
+				2220DCA123177E7500C67525 /* AppointmentListView.swift */,
+				2220DCA323177E7600C67525 /* RegressionListView.swift */,
 				2220DCA023177E7500C67525 /* YourDest.swift */,
+				2220DCAB231A1DC500C67525 /* RegDest.swift */,
+				2220DC9D23177E7500C67525 /* AppDelegate.swift */,
+				2220DC9F23177E7500C67525 /* SceneDelegate.swift */,
 				2220DC8F23177E1200C67525 /* Assets.xcassets */,
 				2220DC9423177E1200C67525 /* LaunchScreen.storyboard */,
 				2220DC9723177E1200C67525 /* Info.plist */,
@@ -165,6 +168,7 @@
 				2220DCA523177E7600C67525 /* RootView.swift in Sources */,
 				2220DCA423177E7600C67525 /* AppDelegate.swift in Sources */,
 				2220DCAA23177E7600C67525 /* RegressionListView.swift in Sources */,
+				2220DCAC231A1DC500C67525 /* RegDest.swift in Sources */,
 				2220DCA623177E7600C67525 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
