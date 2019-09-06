@@ -11,15 +11,15 @@ import SwiftUI
 struct RegressionListView: View {
     var body: some View {
         List {
-            link(destination: RegDest())
-            link(destination: RegDest())
-            link(destination: RegDest())
-        }.navigationBarTitle("SubTopic")
+            link(label: "Logistic Function", destination: RegDest())
+            link(label: "Interpreting coefficients", destination: RegDest())
+            link(label: "Model Assumptions", destination: RegDest())
+        }.navigationBarTitle("Logistic Regression")
     }
 
-    private func link<Destination: View>(destination: Destination) -> some View {
+    private func link<Destination: View>(label: String, destination: Destination) -> some View {
         NavigationLink(destination: destination) {
-            RegDest()
+            Text(label)
         }
     }
 }
