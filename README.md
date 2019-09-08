@@ -11,7 +11,7 @@ WIP topics:
 * Decision Tree
 * Random Forest
 * XGBoost
-* Imbalanced Data Methods
+* Imbalanced Data
 * Model Training and Validation
 * Performance Metrics
 * Deep Learning + subtopics
