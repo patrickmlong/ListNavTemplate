@@ -8,13 +8,13 @@ WIP topics:
 * Logistic Regression
 * Linear Descriminant Analysis
 * Naive Bayes
-*Decision Tree
-*Random Forest
-*XGBoost
-*Imbalanced Data Methods
-*Model Training and Validation
-*Performance Metrics
-*Deep Learning + subtopics
+* Decision Tree
+* Random Forest
+* XGBoost
+* Imbalanced Data Methods
+* Model Training and Validation
+* Performance Metrics
+* Deep Learning + subtopics
 
 
 
