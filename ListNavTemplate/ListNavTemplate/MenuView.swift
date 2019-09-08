@@ -12,15 +12,15 @@ import SwiftUI
 struct MenuView: View {
     var body: some View {
         List {
-            link(icon:"calendar", label: "Regression",
-                 destination: RegressionListView())
+            link(icon:"calendar", label: "Logistic Regression",
+                 destination: LogisticRegressionListView())
             link(icon: "list.bullet", label: "Classification",
                  destination: AppointmentListView())
             link(icon: "rectangle.stack.person.crop", label: "Contacts",
                  destination: AppointmentListView())
             link(icon: "calendar", label: "My Calendar",
                  destination: AppointmentListView())
-        }.navigationBarTitle(Text("DSG"), displayMode: .large)
+        }.navigationBarTitle(Text("Data Science Notes"), displayMode: .large)
     }
 
     private func link<Destination: View>(icon: String, label: String, destination: Destination) -> some View {

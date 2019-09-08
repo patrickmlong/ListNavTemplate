@@ -1,5 +1,5 @@
 //
-//  RegressionListView.swift
+//  LogisticRegressionListView.swift
 //  list_nav
 //
 //  Created by patrick long on 8/28/19.
@@ -8,11 +8,11 @@
 
 import SwiftUI
 
-struct RegressionListView: View {
+struct LogisticRegressionListView: View {
     var body: some View {
         List {
             link(label: "Logistic Function", destination: RegDest())
-            link(label: "Interpreting coefficients", destination: RegDest())
+            link(label: "Interpreting coefficients", destination: OrDest())
             link(label: "Model Assumptions", destination: RegDest())
         }.navigationBarTitle("Logistic Regression")
     }
