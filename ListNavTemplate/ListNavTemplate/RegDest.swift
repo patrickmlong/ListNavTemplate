@@ -9,16 +9,18 @@
 import SwiftUI
 
 struct RegDest: View {
+    var imageName: String
     var body: some View {
-        Image("logistic_function").resizable()
+        Image(imageName).resizable()
 
     }
 }
 
-#if DEBUG
+
+/*#if DEBUG
 struct RegDest_Previews: PreviewProvider {
     static var previews: some View {
         RegDest()
     }
 }
-#endif
+#endif*/

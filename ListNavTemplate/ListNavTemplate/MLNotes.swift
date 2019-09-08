@@ -27,7 +27,8 @@ let toronto = Team(color: Color(red: 0.718, green: 0.165, blue: 0.263), imageNam
 
 let logisticRegressionNotes = [
     MLNotes(id: 0, topicName: "Logistic Function", imageName: "logistic_function"),
-    MLNotes(id: 1, topicName: "Interpreting Coefficients ", imageName: "or"),
-    MLNotes(id: 2, topicName: "Model Assumptions", imageName: "or")
+    MLNotes(id: 1, topicName: "Odds Ratio", imageName: "or"),
+    MLNotes(id: 2, topicName: "Model Assumptions", imageName: "logistic_regression_assumptions"),
+    MLNotes(id: 3, topicName: "MLE", imageName: "mle")
 ]
 

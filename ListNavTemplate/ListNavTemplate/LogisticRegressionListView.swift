@@ -12,9 +12,10 @@ struct LogisticRegressionListView: View {
     
     var body: some View {
         List {
-            link(label: logisticRegressionNotes[0].topicName, destination: RegDest())
-            link(label: "Interpreting coefficients", destination: OrDest())
-            link(label: "Model Assumptions", destination: RegDest())
+            link(label: logisticRegressionNotes[0].topicName, destination: RegDest(imageName: logisticRegressionNotes[0].imageName))
+            link(label: logisticRegressionNotes[1].topicName, destination: RegDest(imageName: logisticRegressionNotes[1].imageName))
+            link(label: logisticRegressionNotes[2].topicName, destination: RegDest(imageName: logisticRegressionNotes[2].imageName))
+            link(label: logisticRegressionNotes[3].topicName, destination: RegDest(imageName: logisticRegressionNotes[3].imageName))
         }.navigationBarTitle("Logistic Regression")
     }
         
