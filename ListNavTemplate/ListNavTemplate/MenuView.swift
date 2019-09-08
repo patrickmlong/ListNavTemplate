@@ -12,14 +12,20 @@ import SwiftUI
 struct MenuView: View {
     var body: some View {
         List {
-            link(icon:"calendar", label: "Logistic Regression",
+            link(icon:"list.bullet", label: "Linear Regression",
+                 destination: LinearRegressionListView())
+            link(icon:"list.bullet", label: "Logistic Regression",
                  destination: LogisticRegressionListView())
-            link(icon: "list.bullet", label: "Classification",
-                 destination: AppointmentListView())
-            link(icon: "rectangle.stack.person.crop", label: "Contacts",
-                 destination: AppointmentListView())
-            link(icon: "calendar", label: "My Calendar",
-                 destination: AppointmentListView())
+            link(icon: "list.bullet", label: "Decision Tree",
+                 destination: DecisionTreeListView())
+            link(icon: "list.bullet", label: "RandomForest",
+                 destination: RandomForestListView())
+            link(icon: "list.bullet", label: "Support Vector Machines",
+                 destination: SVMListView())
+            link(icon: "list.bullet", label: "Linear Discrimant Analysis",
+                 destination: LDAListView())
+            link(icon: "list.bullet", label: "NaiveBayes",
+                 destination: NaiveBayesListView())
         }.navigationBarTitle(Text("Data Science Notes"), displayMode: .large)
     }
 

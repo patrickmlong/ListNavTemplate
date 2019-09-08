@@ -1,5 +1,5 @@
 //
-//  RegDest.swift
+//  Dest.swift
 //  ListNavTemplate
 //
 //  Created by patrick long on 8/30/19.
@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct RegDest: View {
+struct Dest: View {
     var imageName: String
     var body: some View {
         Image(imageName).resizable()
