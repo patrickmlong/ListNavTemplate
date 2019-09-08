@@ -9,13 +9,15 @@
 import SwiftUI
 
 struct LogisticRegressionListView: View {
+    
     var body: some View {
         List {
-            link(label: "Logistic Function", destination: RegDest())
+            link(label: logisticRegressionNotes[0].topicName, destination: RegDest())
             link(label: "Interpreting coefficients", destination: OrDest())
             link(label: "Model Assumptions", destination: RegDest())
         }.navigationBarTitle("Logistic Regression")
     }
+        
 
     private func link<Destination: View>(label: String, destination: Destination) -> some View {
         NavigationLink(destination: destination) {
@@ -23,3 +25,4 @@ struct LogisticRegressionListView: View {
         }
     }
 }
+

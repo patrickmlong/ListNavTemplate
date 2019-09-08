@@ -10,7 +10,7 @@ import SwiftUI
 
 struct RegDest: View {
     var body: some View {
-        Image("logistic_regression_method_1").resizable()
+        Image("logistic_function").resizable()
 
     }
 }

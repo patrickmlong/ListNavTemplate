@@ -19,7 +19,7 @@
 		2220DCAA23177E7600C67525 /* LogisticRegressionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2220DCA323177E7600C67525 /* LogisticRegressionListView.swift */; };
 		2220DCAC231A1DC500C67525 /* RegDest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2220DCAB231A1DC500C67525 /* RegDest.swift */; };
 		22FF86A22323379200A74880 /* OrDest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF86A12323379200A74880 /* OrDest.swift */; };
-		22FF86A423255FDF00A74880 /* LogisticRegressStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF86A323255FDF00A74880 /* LogisticRegressStruct.swift */; };
+		22FF86A423255FDF00A74880 /* MLNotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF86A323255FDF00A74880 /* MLNotes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +37,7 @@
 		2220DCA323177E7600C67525 /* LogisticRegressionListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogisticRegressionListView.swift; sourceTree = "<group>"; };
 		2220DCAB231A1DC500C67525 /* RegDest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegDest.swift; sourceTree = "<group>"; };
 		22FF86A12323379200A74880 /* OrDest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrDest.swift; sourceTree = "<group>"; };
-		22FF86A323255FDF00A74880 /* LogisticRegressStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogisticRegressStruct.swift; sourceTree = "<group>"; };
+		22FF86A323255FDF00A74880 /* MLNotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLNotes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +79,7 @@
 				22FF86A12323379200A74880 /* OrDest.swift */,
 				2220DC9D23177E7500C67525 /* AppDelegate.swift */,
 				2220DC9F23177E7500C67525 /* SceneDelegate.swift */,
-				22FF86A323255FDF00A74880 /* LogisticRegressStruct.swift */,
+				22FF86A323255FDF00A74880 /* MLNotes.swift */,
 				2220DC8F23177E1200C67525 /* Assets.xcassets */,
 				2220DC9423177E1200C67525 /* LaunchScreen.storyboard */,
 				2220DC9723177E1200C67525 /* Info.plist */,
@@ -170,7 +170,7 @@
 			files = (
 				2220DCA723177E7600C67525 /* YourDest.swift in Sources */,
 				2220DCA923177E7600C67525 /* MenuView.swift in Sources */,
-				22FF86A423255FDF00A74880 /* LogisticRegressStruct.swift in Sources */,
+				22FF86A423255FDF00A74880 /* MLNotes.swift in Sources */,
 				2220DCA823177E7600C67525 /* AppointmentListView.swift in Sources */,
 				2220DCA523177E7600C67525 /* RootView.swift in Sources */,
 				2220DCA423177E7600C67525 /* AppDelegate.swift in Sources */,
