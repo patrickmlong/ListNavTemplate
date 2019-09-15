@@ -25,6 +25,11 @@
 		22FF86AC2325B95F00A74880 /* SVMListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF86AB2325B95F00A74880 /* SVMListView.swift */; };
 		22FF86AE2325BA2000A74880 /* LDAListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF86AD2325BA2000A74880 /* LDAListView.swift */; };
 		22FF86B22325BAAC00A74880 /* NaiveBayesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF86B12325BAAC00A74880 /* NaiveBayesListView.swift */; };
+		22FF86B4232EA9DC00A74880 /* SwiftUIViewTopLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF86B3232EA9DC00A74880 /* SwiftUIViewTopLevel.swift */; };
+		22FF86B6232EAAB700A74880 /* RegressionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF86B5232EAAB700A74880 /* RegressionListView.swift */; };
+		22FF86B8232EAAD400A74880 /* ClassificationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF86B7232EAAD400A74880 /* ClassificationListView.swift */; };
+		22FF86BA232EAAE400A74880 /* StatsConceptsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF86B9232EAAE400A74880 /* StatsConceptsListView.swift */; };
+		22FF86BC232EAAF400A74880 /* DeepLearningListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF86BB232EAAF400A74880 /* DeepLearningListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +53,11 @@
 		22FF86AB2325B95F00A74880 /* SVMListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SVMListView.swift; sourceTree = "<group>"; };
 		22FF86AD2325BA2000A74880 /* LDAListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LDAListView.swift; sourceTree = "<group>"; };
 		22FF86B12325BAAC00A74880 /* NaiveBayesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaiveBayesListView.swift; sourceTree = "<group>"; };
+		22FF86B3232EA9DC00A74880 /* SwiftUIViewTopLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewTopLevel.swift; sourceTree = "<group>"; };
+		22FF86B5232EAAB700A74880 /* RegressionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegressionListView.swift; sourceTree = "<group>"; };
+		22FF86B7232EAAD400A74880 /* ClassificationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassificationListView.swift; sourceTree = "<group>"; };
+		22FF86B9232EAAE400A74880 /* StatsConceptsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsConceptsListView.swift; sourceTree = "<group>"; };
+		22FF86BB232EAAF400A74880 /* DeepLearningListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLearningListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +92,12 @@
 			children = (
 				2220DC9E23177E7500C67525 /* RootView.swift */,
 				2220DCA223177E7600C67525 /* MenuView.swift */,
+				22FF86B3232EA9DC00A74880 /* SwiftUIViewTopLevel.swift */,
 				2220DCA123177E7500C67525 /* AppointmentListView.swift */,
+				22FF86B5232EAAB700A74880 /* RegressionListView.swift */,
+				22FF86B7232EAAD400A74880 /* ClassificationListView.swift */,
+				22FF86B9232EAAE400A74880 /* StatsConceptsListView.swift */,
+				22FF86BB232EAAF400A74880 /* DeepLearningListView.swift */,
 				22FF86A52325B6A200A74880 /* LinearRegressionListView.swift */,
 				2220DCA323177E7600C67525 /* LogisticRegressionListView.swift */,
 				22FF86A72325B81C00A74880 /* DecisionTreeListView.swift */,
@@ -188,15 +203,20 @@
 				2220DCA923177E7600C67525 /* MenuView.swift in Sources */,
 				22FF86A423255FDF00A74880 /* MLNotes.swift in Sources */,
 				2220DCA823177E7600C67525 /* AppointmentListView.swift in Sources */,
+				22FF86B4232EA9DC00A74880 /* SwiftUIViewTopLevel.swift in Sources */,
+				22FF86BC232EAAF400A74880 /* DeepLearningListView.swift in Sources */,
 				22FF86AA2325B8D200A74880 /* RandomForestListView.swift in Sources */,
 				2220DCA523177E7600C67525 /* RootView.swift in Sources */,
 				2220DCA423177E7600C67525 /* AppDelegate.swift in Sources */,
+				22FF86B6232EAAB700A74880 /* RegressionListView.swift in Sources */,
 				2220DCAA23177E7600C67525 /* LogisticRegressionListView.swift in Sources */,
+				22FF86BA232EAAE400A74880 /* StatsConceptsListView.swift in Sources */,
 				22FF86A82325B81C00A74880 /* DecisionTreeListView.swift in Sources */,
 				2220DCAC231A1DC500C67525 /* Dest.swift in Sources */,
 				22FF86A62325B6A200A74880 /* LinearRegressionListView.swift in Sources */,
 				22FF86AC2325B95F00A74880 /* SVMListView.swift in Sources */,
 				22FF86AE2325BA2000A74880 /* LDAListView.swift in Sources */,
+				22FF86B8232EAAD400A74880 /* ClassificationListView.swift in Sources */,
 				2220DCA623177E7600C67525 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
