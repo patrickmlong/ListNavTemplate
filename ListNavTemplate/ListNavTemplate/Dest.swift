@@ -1,5 +1,5 @@
 //
-//  RegDest.swift
+//  Dest.swift
 //  ListNavTemplate
 //
 //  Created by patrick long on 8/30/19.
@@ -8,17 +8,19 @@
 
 import SwiftUI
 
-struct RegDest: View {
+struct Dest: View {
+    var imageName: String
     var body: some View {
-        Image("logistic_regression_method_1").resizable()
+        Image(imageName).resizable()
 
     }
 }
 
-#if DEBUG
+
+/*#if DEBUG
 struct RegDest_Previews: PreviewProvider {
     static var previews: some View {
         RegDest()
     }
 }
-#endif
+#endif*/
