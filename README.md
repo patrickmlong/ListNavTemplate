@@ -1,20 +1,9 @@
-# ListNavTemplate
+#  WIP: ListNavTemplate
 
-WIP build template for Data Science Guide
-IOS app using new SwiftUI framework in Xcode 11 beta
+Build template for DS ios app using the new SwiftUI framework
 
-WIP topics:
-* Linear Regression
-* Logistic Regression
-* Linear Descriminant Analysis
-* Naive Bayes
-* Decision Tree
-* Random Forest
-* XGBoost
-* Imbalanced Data
-* Model Training and Validation
-* Performance Metrics
-* Deep Learning + subtopics
+<img src="https://github.com/patrickmlong/ListNavTemplate/blob/master/.png" height="800" title="Test Home Screen">
+
 
 
 
