@@ -20,7 +20,14 @@ struct SwiftUIViewTopLevel: View {
                  destination: StatsConceptsListView())
             link(icon: "list.bullet", label: "Deep Learning",
                  destination: DeepLearningListView())
- 
+            link(icon: "list.bullet", label: "Imbalanced Data",
+                    destination: DeepLearningListView())
+            link(icon: "list.bullet", label: "Model Validation",
+                    destination: DeepLearningListView())
+            link(icon: "list.bullet", label: "Metrics",
+                    destination: DeepLearningListView())
+            link(icon: "list.bullet", label: "Deployment",
+                    destination: DeepLearningListView())
         }.navigationBarTitle(Text("Data Science Notes"), displayMode: .large)
     }
 

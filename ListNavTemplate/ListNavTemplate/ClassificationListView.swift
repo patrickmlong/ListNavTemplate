@@ -17,12 +17,16 @@ struct ClassificationListView: View {
                  destination: DecisionTreeListView())
             link(icon:"list.bullet", label: "Random Forest",
                  destination: RandomForestListView())
+            link(icon:"list.bullet", label: "KNN",
+                 destination: KNNListView())
             link(icon:"list.bullet", label: "Support Vector Machines",
                  destination: SVMListView())
             link(icon:"list.bullet", label: "Linear Descriminant Analysis",
                  destination: LDAListView())
             link(icon:"list.bullet", label: "Naive Bayes",
                  destination: NaiveBayesListView())
+            link(icon:"list.bullet", label: "XGBoost",
+                 destination: XGBoostListView())
         }.navigationBarTitle(Text("Classifiers"), displayMode: .large)
     }
 
