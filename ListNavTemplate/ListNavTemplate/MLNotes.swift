@@ -31,7 +31,6 @@ let linearRegressionNotes: [MLNotes] = [
     MLNotes(id: 1, topicName: "Coeffients", imageName: "or"),
     MLNotes(id: 2, topicName: "Model Assumptions", imageName: "logistic_regression_assumptions"),
     MLNotes(id: 3, topicName: "MLE", imageName: "mle"),
-    MLNotes(id: 4, topicName: "four", imageName: "mle"),
 ]
 
 /* Classification */
