@@ -11,13 +11,15 @@ import SwiftUI
 struct NaiveBayesListView: View {
     
     var body: some View {
-        List {
-            link(label: ldaNotes[0].topicName, destination: Dest(imageName: ldaNotes[0].imageName))
-            link(label: ldaNotes[1].topicName, destination: Dest(imageName: ldaNotes[1].imageName))
-            link(label: ldaNotes[2].topicName, destination: Dest(imageName: ldaNotes[2].imageName))
-        }.navigationBarTitle("Naive Bayes")
+        List(topicRange) { i in
+            self.link(label: naiveBayesNotes[i].topicName,
+                      destination: Dest(imageName: naiveBayesNotes[i].imageName))
+                        }.navigationBarTitle("Naive Bayes")
     }
+    
+    let topicRange = 0..<naiveBayesNotes.count
         
+   
 
     private func link<Destination: View>(label: String, destination: Destination) -> some View {
         NavigationLink(destination: destination) {

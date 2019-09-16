@@ -12,12 +12,13 @@ import SwiftUI
 struct RandomForestListView: View {
     
     var body: some View {
-        List {
-            link(label: randomForestNotes[0].topicName, destination: Dest(imageName: randomForestNotes[0].imageName))
-            link(label: randomForestNotes[1].topicName, destination: Dest(imageName: randomForestNotes[1].imageName))
-            link(label: randomForestNotes[2].topicName, destination: Dest(imageName: randomForestNotes[2].imageName))
-        }.navigationBarTitle("Random Forest")
+        List(topicRange) { i in
+            self.link(label: randomForestNotes[i].topicName,
+                      destination: Dest(imageName: randomForestNotes[i].imageName))
+                    }.navigationBarTitle("Random Forest")
     }
+    
+    let topicRange = 0..<randomForestNotes.count
         
 
     private func link<Destination: View>(label: String, destination: Destination) -> some View {

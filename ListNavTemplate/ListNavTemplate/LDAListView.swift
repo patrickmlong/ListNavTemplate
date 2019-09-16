@@ -12,12 +12,13 @@ import SwiftUI
 struct LDAListView: View {
     
     var body: some View {
-        List {
-            link(label: ldaNotes[0].topicName, destination: Dest(imageName: ldaNotes[0].imageName))
-            link(label: ldaNotes[1].topicName, destination: Dest(imageName: ldaNotes[1].imageName))
-            link(label: ldaNotes[2].topicName, destination: Dest(imageName: ldaNotes[2].imageName))
-        }.navigationBarTitle("Linear Descriminant Analysis")
+        List(topicRange) { i in
+            self.link(label: ldaNotes[i].topicName,
+                      destination: Dest(imageName: ldaNotes[i].imageName))
+                    }.navigationBarTitle("LDA")
     }
+    
+    let topicRange = 0..<ldaNotes.count
         
 
     private func link<Destination: View>(label: String, destination: Destination) -> some View {

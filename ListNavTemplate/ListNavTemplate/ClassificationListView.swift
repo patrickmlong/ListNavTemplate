@@ -22,7 +22,7 @@ struct ClassificationListView: View {
             link(icon:"list.bullet", label: "Linear Descriminant Analysis",
                  destination: LDAListView())
             link(icon:"list.bullet", label: "Naive Bayes",
-                 destination: LDAListView())
+                 destination: NaiveBayesListView())
         }.navigationBarTitle(Text("Classifiers"), displayMode: .large)
     }
 
