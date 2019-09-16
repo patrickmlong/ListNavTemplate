@@ -34,6 +34,16 @@ let linearRegressionNotes: [MLNotes] = [
 ]
 
 /* Classification */
+let classificationTopics: [[MLNotes]] = [logisticRegressionNotes,
+                                 decisionTreeNotes,
+                                 randomForestNotes,
+                                 knnNotes,
+                                 svmNotes,
+                                 ldaNotes,
+                                 naiveBayesNotes,
+                                 xgboostNotes]
+                                 
+
 let logisticRegressionNotes: [MLNotes] = [
     MLNotes(id: 0, topicName: "Logistic Function", imageName: "logistic_function"),
     MLNotes(id: 1, topicName: "Odds Ratio", imageName: "or"),
