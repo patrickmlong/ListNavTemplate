@@ -10,25 +10,29 @@ import Foundation
 import SwiftUI
 
 struct SwiftUIViewTopLevel: View {
+    
     var body: some View {
         List {
             link(icon:"list.bullet", label: "Regression",
-                 destination: RegressionListView())
+                 destination: RegressionListView()).foregroundColor(.green).font(.title)
             link(icon:"list.bullet", label: "Classification",
-                 destination: ClassificationListView())
-            link(icon: "list.bullet", label: "Key Statistics Concepts",
-                 destination: StatsConceptsListView())
+                 destination: ClassificationListView()).foregroundColor(.blue).font(.title)
+            link(icon: "list.bullet", label: "Clustering",
+                 destination: ClusteringListView()).foregroundColor(.red).font(.title)
             link(icon: "list.bullet", label: "Deep Learning",
-                 destination: DeepLearningListView())
+                 destination: DeepLearningListView()).foregroundColor(.purple).font(.title)
+            link(icon: "list.bullet", label: "Key Stats Concepts",
+                 destination: StatsConceptsListView()).foregroundColor(.green).font(.title)
             link(icon: "list.bullet", label: "Imbalanced Data",
-                    destination: DeepLearningListView())
+                    destination: DeepLearningListView()).foregroundColor(.orange).font(.title)
             link(icon: "list.bullet", label: "Model Validation",
-                    destination: DeepLearningListView())
+                 destination: DeepLearningListView()).foregroundColor(.yellow).font(.title)
             link(icon: "list.bullet", label: "Metrics",
-                    destination: DeepLearningListView())
+                 destination: DeepLearningListView()).foregroundColor(.red).font(.title)
             link(icon: "list.bullet", label: "Deployment",
-                    destination: DeepLearningListView())
+                 destination: DeepLearningListView()).foregroundColor(.green).font(.title)
         }.navigationBarTitle(Text("Data Science Notes"), displayMode: .large)
+
     }
 
     private func link<Destination: View>(icon: String, label: String, destination: Destination) -> some View {
@@ -37,6 +41,8 @@ struct SwiftUIViewTopLevel: View {
                 Image(systemName: icon)
                 Text(label)
             }
-        }
+        }.listRowBackground(Color.black)
+
     }
 }
+

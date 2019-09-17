@@ -9,6 +9,7 @@
 import SwiftUI
 
 struct ClassificationListView: View {
+    
     var body: some View {
         List {
             link(icon:"list.bullet", label: "Logistic Regression",
@@ -30,7 +31,10 @@ struct ClassificationListView: View {
         }.navigationBarTitle(Text("Classifiers"), displayMode: .large)
     }
 
-    private func link<Destination: View>(icon: String, label: String, destination: Destination) -> some View {
+
+    private func link<Destination: View>(icon: String,
+                                         label: String,
+                                         destination: Destination) -> some View {
         return NavigationLink(destination: destination) {
             HStack {
                 Image(systemName: icon)
@@ -44,7 +48,7 @@ struct ClassificationListView: View {
 /*var body: some View {
     List(topicRange) { topic in
         self.link(icon: "list.bullet",
- label: "Linear Descriminant Analysis"
+ label: topic
  ))
     }.navigationBarTitle("Linear Regression")
 }

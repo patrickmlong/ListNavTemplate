@@ -34,16 +34,6 @@ let linearRegressionNotes: [MLNotes] = [
 ]
 
 /* Classification */
-let classificationTopics: [[MLNotes]] = [logisticRegressionNotes,
-                                 decisionTreeNotes,
-                                 randomForestNotes,
-                                 knnNotes,
-                                 svmNotes,
-                                 ldaNotes,
-                                 naiveBayesNotes,
-                                 xgboostNotes]
-                                 
-
 let logisticRegressionNotes: [MLNotes] = [
     MLNotes(id: 0, topicName: "Logistic Function", imageName: "logistic_function"),
     MLNotes(id: 1, topicName: "Odds Ratio", imageName: "or"),
@@ -88,4 +78,10 @@ let xgboostNotes: [MLNotes] = [
     MLNotes(id: 1, topicName: "Boosting", imageName: "logistic_function"),
     MLNotes(id: 2, topicName: "Tuning", imageName: "logistic_function"),
     MLNotes(id: 3, topicName: "Model Assumptions", imageName: "logistic_regression_assumptions"),
+]
+
+/* Clustering*/
+
+let kmeansNotes: [MLNotes] = [
+MLNotes(id: 0, topicName: "Overview", imageName: "logistic_function")
 ]
