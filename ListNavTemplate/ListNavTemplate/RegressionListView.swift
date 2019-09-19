@@ -10,11 +10,11 @@ import SwiftUI
 
 struct RegressionListView: View {
     var body: some View {
-        List {
+            List {
             link(icon:"list.bullet", label: "Linear Regression",
                  destination: LinearRegressionListView())
         }.navigationBarTitle(Text("Regression"), displayMode: .large)
-    }
+     }
 
     private func link<Destination: View>(icon: String, label: String, destination: Destination) -> some View {
         return NavigationLink(destination: destination) {

@@ -12,7 +12,9 @@ import SwiftUI
 struct SwiftUIViewTopLevel: View {
     
     var body: some View {
-        List {
+        
+         Group {
+            List {
             link(icon:"list.bullet", label: "Regression",
                  destination: RegressionListView()).foregroundColor(.green).font(.title)
             link(icon:"list.bullet", label: "Classification",
@@ -31,8 +33,12 @@ struct SwiftUIViewTopLevel: View {
                  destination: DeepLearningListView()).foregroundColor(.red).font(.title)
             link(icon: "list.bullet", label: "Deployment",
                  destination: DeepLearningListView()).foregroundColor(.green).font(.title)
+           .padding(.bottom, 400)
         }.navigationBarTitle(Text("Data Science Notes"), displayMode: .large)
+            
+         }.background(Color.black) /*.background(Color.black.edgesIgnoringSafeArea(.all))*/
 
+    
     }
 
     private func link<Destination: View>(icon: String, label: String, destination: Destination) -> some View {
