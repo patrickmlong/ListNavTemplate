@@ -14,10 +14,8 @@
 		2220DCA523177E7600C67525 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2220DC9E23177E7500C67525 /* RootView.swift */; };
 		2220DCA623177E7600C67525 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2220DC9F23177E7500C67525 /* SceneDelegate.swift */; };
 		2220DCA723177E7600C67525 /* YourDest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2220DCA023177E7500C67525 /* YourDest.swift */; };
-		2220DCAA23177E7600C67525 /* LogisticRegressionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2220DCA323177E7600C67525 /* LogisticRegressionListView.swift */; };
 		2220DCAC231A1DC500C67525 /* Dest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2220DCAB231A1DC500C67525 /* Dest.swift */; };
 		22FF86A423255FDF00A74880 /* MLNotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF86A323255FDF00A74880 /* MLNotes.swift */; };
-		22FF86A62325B6A200A74880 /* LinearRegressionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF86A52325B6A200A74880 /* LinearRegressionListView.swift */; };
 		22FF86B4232EA9DC00A74880 /* SwiftUIViewTopLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF86B3232EA9DC00A74880 /* SwiftUIViewTopLevel.swift */; };
 		22FF86B6232EAAB700A74880 /* RegressionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF86B5232EAAB700A74880 /* RegressionListView.swift */; };
 		22FF86B8232EAAD400A74880 /* ClassificationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF86B7232EAAD400A74880 /* ClassificationListView.swift */; };
@@ -36,10 +34,8 @@
 		2220DC9E23177E7500C67525 /* RootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		2220DC9F23177E7500C67525 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2220DCA023177E7500C67525 /* YourDest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YourDest.swift; sourceTree = "<group>"; };
-		2220DCA323177E7600C67525 /* LogisticRegressionListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogisticRegressionListView.swift; sourceTree = "<group>"; };
 		2220DCAB231A1DC500C67525 /* Dest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dest.swift; sourceTree = "<group>"; };
 		22FF86A323255FDF00A74880 /* MLNotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLNotes.swift; sourceTree = "<group>"; };
-		22FF86A52325B6A200A74880 /* LinearRegressionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearRegressionListView.swift; sourceTree = "<group>"; };
 		22FF86B3232EA9DC00A74880 /* SwiftUIViewTopLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewTopLevel.swift; sourceTree = "<group>"; };
 		22FF86B5232EAAB700A74880 /* RegressionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegressionListView.swift; sourceTree = "<group>"; };
 		22FF86B7232EAAD400A74880 /* ClassificationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassificationListView.swift; sourceTree = "<group>"; };
@@ -81,9 +77,7 @@
 				2220DC9E23177E7500C67525 /* RootView.swift */,
 				22FF86B3232EA9DC00A74880 /* SwiftUIViewTopLevel.swift */,
 				22FF86B5232EAAB700A74880 /* RegressionListView.swift */,
-				22FF86A52325B6A200A74880 /* LinearRegressionListView.swift */,
 				22FF86B7232EAAD400A74880 /* ClassificationListView.swift */,
-				2220DCA323177E7600C67525 /* LogisticRegressionListView.swift */,
 				22FF86B9232EAAE400A74880 /* StatsConceptsListView.swift */,
 				22FF86BB232EAAF400A74880 /* DeepLearningListView.swift */,
 				22FF86C3233053A200A74880 /* ClusteringListView.swift */,
@@ -187,10 +181,8 @@
 				2220DCA523177E7600C67525 /* RootView.swift in Sources */,
 				2220DCA423177E7600C67525 /* AppDelegate.swift in Sources */,
 				22FF86B6232EAAB700A74880 /* RegressionListView.swift in Sources */,
-				2220DCAA23177E7600C67525 /* LogisticRegressionListView.swift in Sources */,
 				22FF86BA232EAAE400A74880 /* StatsConceptsListView.swift in Sources */,
 				2220DCAC231A1DC500C67525 /* Dest.swift in Sources */,
-				22FF86A62325B6A200A74880 /* LinearRegressionListView.swift in Sources */,
 				22FF86B8232EAAD400A74880 /* ClassificationListView.swift in Sources */,
 				22FF86C4233053A200A74880 /* ClusteringListView.swift in Sources */,
 				2220DCA623177E7600C67525 /* SceneDelegate.swift in Sources */,

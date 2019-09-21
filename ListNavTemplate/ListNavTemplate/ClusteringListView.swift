@@ -14,7 +14,7 @@ struct ClusteringListView: View {
             List(topicRange) { i in
             self.link(label: clusteringNotes[i].topicName,
                       destination: Dest(imageName: clusteringNotes[i].imageName))
-            }.navigationBarTitle(Text("Classifiers"), displayMode: .large)
+            }.navigationBarTitle(Text("Clustering"), displayMode: .large)
         }
     }
     

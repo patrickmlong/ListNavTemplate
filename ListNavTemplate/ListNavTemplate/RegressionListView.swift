@@ -14,7 +14,7 @@ struct RegressionListView: View {
             List(topicRange) { i in
             self.link(label: regressionNotes[i].topicName,
                       destination: Dest(imageName: regressionNotes[i].imageName))
-            }.navigationBarTitle(Text("Classifiers"), displayMode: .large)
+            }.navigationBarTitle(Text("Regressors"), displayMode: .large)
         }
     }
 
