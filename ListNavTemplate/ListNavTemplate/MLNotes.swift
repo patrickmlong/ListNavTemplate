@@ -51,3 +51,13 @@ MLNotes(id: 0, topicName: "Kmeans", imageName: "logistic_regression"),
 MLNotes(id: 0, topicName: "Hierarchical Clustring", imageName: "logistic_regression"),
 MLNotes(id: 0, topicName: "DBSCAN", imageName: "logistic_regression")
 ]
+
+let optimizationNotes: [MLNotes] = [
+MLNotes(id: 0, topicName: "Optimization", imageName: "optimization")
+]
+
+let imbalancedDataNotes: [MLNotes] = [
+MLNotes(id: 0, topicName: "Imbalanced Data", imageName: "imbalanced_data")
+]
+
+
