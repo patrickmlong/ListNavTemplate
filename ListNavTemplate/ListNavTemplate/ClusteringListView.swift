@@ -10,19 +10,22 @@ import SwiftUI
 
 struct ClusteringListView: View {
         var body: some View {
-            List {
-                link(icon:"list.bullet", label: "Kmeans",
-                     destination: KmeansListView())
-            }.navigationBarTitle(Text("Kmeans"), displayMode: .large)
+        Group {
+            List(topicRange) { i in
+            self.link(label: clusteringNotes[i].topicName,
+                      destination: Dest(imageName: clusteringNotes[i].imageName))
+            }.navigationBarTitle(Text("Classifiers"), displayMode: .large)
         }
-
-        private func link<Destination: View>(icon: String, label: String, destination: Destination) -> some View {
-            return NavigationLink(destination: destination) {
-                HStack {
-                    Image(systemName: icon)
-                    Text(label)
-                }
+    }
+    
+    let topicRange = 0..<clusteringNotes.count
+    
+    private func link<Destination: View>(label: String,
+                                         destination: Destination) -> some View {
+        return NavigationLink(destination: destination) {
+            HStack {
+                Text(label)
             }
         }
     }
-
+}

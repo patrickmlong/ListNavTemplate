@@ -11,33 +11,21 @@ import SwiftUI
 struct ClassificationListView: View {
     
     var body: some View {
-        List {
-            link(icon:"list.bullet", label: "Logistic Regression",
-                 destination: LogisticRegressionListView())
-            link(icon:"list.bullet", label: "Decision Tree",
-                 destination: DecisionTreeListView())
-            link(icon:"list.bullet", label: "Random Forest",
-                 destination: RandomForestListView())
-            link(icon:"list.bullet", label: "KNN",
-                 destination: KNNListView())
-            link(icon:"list.bullet", label: "Support Vector Machines",
-                 destination: SVMListView())
-            link(icon:"list.bullet", label: "Linear Descriminant Analysis",
-                 destination: LDAListView())
-            link(icon:"list.bullet", label: "Naive Bayes",
-                 destination: NaiveBayesListView())
-            link(icon:"list.bullet", label: "XGBoost",
-                 destination: XGBoostListView())
-        }.navigationBarTitle(Text("Classifiers"), displayMode: .large)
+        
+        Group {
+            List(topicRange) { i in
+            self.link(label: classificationNotes[i].topicName,
+                      destination: Dest(imageName: classificationNotes[i].imageName))
+            }.navigationBarTitle(Text("Classifiers"), displayMode: .large)
+        }
     }
-
-
-    private func link<Destination: View>(icon: String,
-                                         label: String,
+    
+    let topicRange = 0..<classificationNotes.count
+    
+    private func link<Destination: View>(label: String,
                                          destination: Destination) -> some View {
         return NavigationLink(destination: destination) {
             HStack {
-                Image(systemName: icon)
                 Text(label)
             }
         }

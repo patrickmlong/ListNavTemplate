@@ -9,17 +9,21 @@
 import SwiftUI
 
 struct RegressionListView: View {
-    var body: some View {
-            List {
-            link(icon:"list.bullet", label: "Linear Regression",
-                 destination: LinearRegressionListView())
-        }.navigationBarTitle(Text("Regression"), displayMode: .large)
-     }
+        var body: some View {
+        Group {
+            List(topicRange) { i in
+            self.link(label: regressionNotes[i].topicName,
+                      destination: Dest(imageName: regressionNotes[i].imageName))
+            }.navigationBarTitle(Text("Classifiers"), displayMode: .large)
+        }
+    }
 
-    private func link<Destination: View>(icon: String, label: String, destination: Destination) -> some View {
+    let topicRange = 0..<regressionNotes.count
+
+    private func link<Destination: View>(label: String,
+                                         destination: Destination) -> some View {
         return NavigationLink(destination: destination) {
             HStack {
-                Image(systemName: icon)
                 Text(label)
             }
         }
