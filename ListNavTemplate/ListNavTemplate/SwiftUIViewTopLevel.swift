@@ -15,6 +15,8 @@ struct SwiftUIViewTopLevel: View {
         
          Group {
             List {
+            link(icon: "list.bullet", label: "Basic Stats",
+                     destination: StatsConceptsListView()).foregroundColor(.orange).font(.title)
             link(icon:"list.bullet", label: "Regression",
                  destination: RegressionListView()).foregroundColor(.green).font(.title)
             link(icon:"list.bullet", label: "Classification",
@@ -23,15 +25,11 @@ struct SwiftUIViewTopLevel: View {
                  destination: ClusteringListView()).foregroundColor(.red).font(.title)
             link(icon: "list.bullet", label: "Deep Learning",
                  destination: DeepLearningListView()).foregroundColor(.purple).font(.title)
-            link(icon: "list.bullet", label: "Key Stats Concepts",
-                 destination: StatsConceptsListView()).foregroundColor(.green).font(.title)
             link(icon: "list.bullet", label: "Imbalanced Data",
                     destination: DeepLearningListView()).foregroundColor(.orange).font(.title)
             link(icon: "list.bullet", label: "Model Validation",
                  destination: DeepLearningListView()).foregroundColor(.yellow).font(.title)
-            link(icon: "list.bullet", label: "Metrics",
-                 destination: DeepLearningListView()).foregroundColor(.red).font(.title)
-            link(icon: "list.bullet", label: "Deployment",
+            link(icon: "list.bullet", label: "Optimization",
                  destination: DeepLearningListView()).foregroundColor(.green).font(.title)
            .padding(.bottom, 400)
                 }.navigationBarTitle(Text("Data Science Notes"), displayMode: .large)

@@ -24,7 +24,7 @@ struct RegressionListView: View {
                                          destination: Destination) -> some View {
         return NavigationLink(destination: destination) {
             HStack {
-                Text(label)
+                Text(label).font(.title)
             }
         }
     }
