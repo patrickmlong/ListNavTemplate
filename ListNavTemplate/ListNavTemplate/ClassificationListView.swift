@@ -43,15 +43,3 @@ struct ClassificationListView: View {
         }
     }
 }
-
-
-/*var body: some View {
-    List(topicRange) { topic in
-        self.link(icon: "list.bullet",
- label: topic
- ))
-    }.navigationBarTitle("Linear Regression")
-}
-
-let topicRange = 0..<classificationTopics.count
-*/

@@ -34,11 +34,9 @@ struct SwiftUIViewTopLevel: View {
             link(icon: "list.bullet", label: "Deployment",
                  destination: DeepLearningListView()).foregroundColor(.green).font(.title)
            .padding(.bottom, 400)
-        }.navigationBarTitle(Text("Data Science Notes"), displayMode: .large)
+                }.navigationBarTitle(Text("Data Science Notes"), displayMode: .large)
             
-         }.background(Color.black) /*.background(Color.black.edgesIgnoringSafeArea(.all))*/
-
-    
+         }
     }
 
     private func link<Destination: View>(icon: String, label: String, destination: Destination) -> some View {

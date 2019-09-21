@@ -27,7 +27,7 @@ let toronto = Team(color: Color(red: 0.718, green: 0.165, blue: 0.263), imageNam
 
 /* Regression */
 let linearRegressionNotes: [MLNotes] = [
-    MLNotes(id: 0, topicName: "Linear Function", imageName: "logistic_function"),
+    MLNotes(id: 0, topicName: "Linear Function", imageName: "logistic_regression"),
     MLNotes(id: 1, topicName: "Coeffients", imageName: "or"),
     MLNotes(id: 2, topicName: "Model Assumptions", imageName: "logistic_regression_assumptions"),
     MLNotes(id: 3, topicName: "MLE", imageName: "mle"),
@@ -35,53 +35,53 @@ let linearRegressionNotes: [MLNotes] = [
 
 /* Classification */
 let logisticRegressionNotes: [MLNotes] = [
-    MLNotes(id: 0, topicName: "Logistic Function", imageName: "logistic_function"),
+    MLNotes(id: 0, topicName: "Logistic Function", imageName: "logistic_regression"),
     MLNotes(id: 1, topicName: "Odds Ratio", imageName: "or"),
     MLNotes(id: 2, topicName: "Model Assumptions", imageName: "logistic_regression_assumptions"),
     MLNotes(id: 3, topicName: "MLE", imageName: "mle"),
     MLNotes(id: 4, topicName: "four", imageName: "mle"),
 ]
 let decisionTreeNotes: [MLNotes] = [
-    MLNotes(id: 0, topicName: "Overview", imageName: "logistic_function"),
+    MLNotes(id: 0, topicName: "Overview", imageName: "logistic_regression"),
     MLNotes(id: 1, topicName: "Math", imageName: "or"),
     MLNotes(id: 2, topicName: "Model Assumptions", imageName: "logistic_regression_assumptions"),
 ]
 let randomForestNotes: [MLNotes] = [
-    MLNotes(id: 0, topicName: "Overview", imageName: "logistic_function"),
+    MLNotes(id: 0, topicName: "Overview", imageName: "logistic_regression"),
     MLNotes(id: 1, topicName: "Bagging", imageName: "or"),
     MLNotes(id: 2, topicName: "Extra Trees", imageName: "or"),
     MLNotes(id: 3, topicName: "Model Assumptions", imageName: "logistic_regression_assumptions"),
 ]
 let knnNotes: [MLNotes] = [
-    MLNotes(id: 0, topicName: "Overview", imageName: "logistic_function"),
+    MLNotes(id: 0, topicName: "Overview", imageName: "logistic_regression"),
     MLNotes(id: 1, topicName: "Model Assumptions", imageName: "logistic_regression_assumptions"),
 ]
 let svmNotes: [MLNotes] = [
-    MLNotes(id: 0, topicName: "Overview", imageName: "logistic_function"),
+    MLNotes(id: 0, topicName: "Overview", imageName: "logistic_regression"),
     MLNotes(id: 1, topicName: "Adjusting Hyperplanes (gamma)", imageName: "or"),
     MLNotes(id: 2, topicName: "Kernel Trick", imageName: "or"),
     MLNotes(id: 3, topicName: "Model Assumptions", imageName: "logistic_regression_assumptions"),
     ]
 let ldaNotes: [MLNotes] = [
-    MLNotes(id: 0, topicName: "Overview", imageName: "logistic_function"),
+    MLNotes(id: 0, topicName: "Overview", imageName: "logistic_regression"),
     MLNotes(id: 1, topicName: "Model Assumptions", imageName: "logistic_regression_assumptions"),
 ]
 let naiveBayesNotes: [MLNotes] = [
-    MLNotes(id: 0, topicName: "Overview", imageName: "logistic_function"),
+    MLNotes(id: 0, topicName: "Overview", imageName: "logistic_regression"),
     MLNotes(id: 1, topicName: "Bayes Theorem", imageName: "or"),
     MLNotes(id: 2, topicName: "MAP", imageName: "logistic_regression_assumptions"),
     MLNotes(id: 3, topicName: "Variants", imageName: "logistic_regression_assumptions"),
     MLNotes(id: 4, topicName: "Assumptions", imageName: "logistic_regression_assumptions"),
 ]
 let xgboostNotes: [MLNotes] = [
-    MLNotes(id: 0, topicName: "Overview", imageName: "logistic_function"),
-    MLNotes(id: 1, topicName: "Boosting", imageName: "logistic_function"),
-    MLNotes(id: 2, topicName: "Tuning", imageName: "logistic_function"),
+    MLNotes(id: 0, topicName: "Overview", imageName: "logistic_regression"),
+    MLNotes(id: 1, topicName: "Boosting", imageName: "logistic_regression"),
+    MLNotes(id: 2, topicName: "Tuning", imageName: "logistic_regression"),
     MLNotes(id: 3, topicName: "Model Assumptions", imageName: "logistic_regression_assumptions"),
 ]
 
 /* Clustering*/
 
 let kmeansNotes: [MLNotes] = [
-MLNotes(id: 0, topicName: "Overview", imageName: "logistic_function")
+MLNotes(id: 0, topicName: "Overview", imageName: "logistic_regression")
 ]

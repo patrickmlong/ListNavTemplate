@@ -11,18 +11,35 @@ import SwiftUI
 struct LogisticRegressionListView: View {
     
     var body: some View {
-        List(topicRange) { i in
+        Group {
+            List(topicRange) { i in
             self.link(label: logisticRegressionNotes[i].topicName,
                       destination: Dest(imageName: logisticRegressionNotes[i].imageName))
+                .modifier(PrimaryLabel())
             }.navigationBarTitle("Logistic Regression")
+        }
+        .padding(.bottom, 100)
+        
     }
     
     let topicRange = 0..<logisticRegressionNotes.count
 
     private func link<Destination: View>(label: String, destination: Destination) -> some View {
-        NavigationLink(destination: destination) {
-            Text(label)
+        return NavigationLink(destination: destination) {
+            HStack {
+                Text(label)
+            }
+        }
+    }
+    
+    struct PrimaryLabel: ViewModifier {
+        func body(content: Content) -> some View {
+            content
+//                .background(Color.black)
+                .foregroundColor(.black)
+                .font(.title)
         }
     }
 }
+
 

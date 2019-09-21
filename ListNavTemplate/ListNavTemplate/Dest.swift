@@ -11,9 +11,11 @@ import SwiftUI
 struct Dest: View {
     var imageName: String
     var body: some View {
-        Image(imageName).resizable()
-
+        ScrollView {
+            Image(imageName).resizable()
+        .aspectRatio(contentMode: .fit)
     }
+}
 }
 
 
