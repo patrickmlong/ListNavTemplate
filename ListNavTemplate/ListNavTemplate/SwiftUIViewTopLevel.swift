@@ -17,6 +17,8 @@ struct SwiftUIViewTopLevel: View {
             List {
             link(icon: "list.bullet", label: "Basic Stats",
                      destination: StatsConceptsListView()).foregroundColor(.orange).font(.title)
+            link(icon: "list.bullet", label: "Feature Processing",
+                destination: ClusteringListView()).foregroundColor(.red).font(.title)
             link(icon:"list.bullet", label: "Regression",
                  destination: RegressionListView()).foregroundColor(.green).font(.title)
             link(icon:"list.bullet", label: "Classification",
@@ -25,14 +27,18 @@ struct SwiftUIViewTopLevel: View {
                  destination: ClusteringListView()).foregroundColor(.red).font(.title)
             link(icon: "list.bullet", label: "Deep Learning",
                  destination: DeepLearningListView()).foregroundColor(.purple).font(.title)
-            link(icon: "list.bullet", label: "Model Validation",
-                 destination: DeepLearningListView()).foregroundColor(.yellow).font(.title)
+            link(icon: "list.bullet", label: modelValidationNotes[0].topicName,
+                destination: Dest(imageName: modelValidationNotes[0].imageName))
+                .foregroundColor(.blue).font(.title)
+            link(icon: "list.bullet", label: "Metrics",
+                 destination: DeepLearningListView()).foregroundColor(.purple).font(.title)
             link(icon: "list.bullet", label: optimizationNotes[0].topicName,
                  destination: Dest(imageName: optimizationNotes[0].imageName))
                 .foregroundColor(.green).font(.title)
             link(icon: "list.bullet", label: imbalancedDataNotes[0].topicName,
-                    destination: Dest(imageName: imbalancedDataNotes[0].imageName))
-                   .foregroundColor(.blue).font(.title)
+                destination: Dest(imageName: imbalancedDataNotes[0].imageName))
+                .foregroundColor(.blue).font(.title)
+
            .padding(.bottom, 400)
                 }.navigationBarTitle(Text("Data Science Notes"), displayMode: .large)
             
