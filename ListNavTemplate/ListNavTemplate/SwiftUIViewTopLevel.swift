@@ -15,16 +15,18 @@ struct SwiftUIViewTopLevel: View {
         
          Group {
             List {
-            link(icon: "list.bullet", label: "Basic Stats",
-                     destination: StatsConceptsListView()).foregroundColor(.orange).font(.title)
+            link(icon: "list.bullet", label: basicStatsNotes[0].topicName,
+                     destination: Dest(imageName: basicStatsNotes[0].imageName))
+                .foregroundColor(.orange).font(.title)
             link(icon: "list.bullet", label: "Feature Processing",
-                destination: ClusteringListView()).foregroundColor(.red).font(.title)
+                destination: StatsConceptsListView()).foregroundColor(.red).font(.title)
             link(icon:"list.bullet", label: "Regression",
                  destination: RegressionListView()).foregroundColor(.green).font(.title)
             link(icon:"list.bullet", label: "Classification",
                  destination: ClassificationListView()).foregroundColor(.blue).font(.title)
-            link(icon: "list.bullet", label: "Clustering",
-                 destination: ClusteringListView()).foregroundColor(.red).font(.title)
+                link(icon: "list.bullet", label: clusteringNotes[0].topicName,
+                 destination: Dest(imageName: clusteringNotes[0].imageName))
+                    .foregroundColor(.red).font(.title)
             link(icon: "list.bullet", label: "Deep Learning",
                  destination: DeepLearningListView()).foregroundColor(.purple).font(.title)
             link(icon: "list.bullet", label: modelValidationNotes[0].topicName,

@@ -24,6 +24,9 @@ struct MLNotes: Identifiable {
 let goldenState = Team(color: Color(red: 0.965, green: 0.761, blue: 0.275), imageName: "gs")
 let toronto = Team(color: Color(red: 0.718, green: 0.165, blue: 0.263), imageName: "tr")
 */
+let basicStatsNotes: [MLNotes] = [
+MLNotes(id: 0, topicName: "Basic Stats", imageName: "basic_stats")
+]
 
 /* Regression */
 let regressionNotes: [MLNotes] = [
@@ -45,11 +48,8 @@ let classificationNotes: [MLNotes] = [
     MLNotes(id: 7, topicName: "XGBoost", imageName: "logistic_regression"),
 ]
 
-/* Clustering*/
 let clusteringNotes: [MLNotes] = [
-MLNotes(id: 0, topicName: "Kmeans", imageName: "logistic_regression"),
-MLNotes(id: 0, topicName: "Hierarchical Clustring", imageName: "logistic_regression"),
-MLNotes(id: 0, topicName: "DBSCAN", imageName: "logistic_regression")
+MLNotes(id: 0, topicName: "Clustering", imageName: "clustering")
 ]
 
 let optimizationNotes: [MLNotes] = [
