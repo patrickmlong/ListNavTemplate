@@ -25,7 +25,7 @@ struct RegressionListView: View {
         return NavigationLink(destination: destination) {
             HStack {
                 Text(label).font(.title)
-            }
+            }.listRowBackground(Color.black)
         }
     }
 }

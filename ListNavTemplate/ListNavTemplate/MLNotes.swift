@@ -25,7 +25,7 @@ let goldenState = Team(color: Color(red: 0.965, green: 0.761, blue: 0.275), imag
 let toronto = Team(color: Color(red: 0.718, green: 0.165, blue: 0.263), imageName: "tr")
 */
 let basicStatsNotes: [MLNotes] = [
-MLNotes(id: 0, topicName: "Basic Stats", imageName: "basic_stats")
+MLNotes(id: 0, topicName: "Basic Statistics", imageName: "basic_stats")
 ]
 
 /* Regression */

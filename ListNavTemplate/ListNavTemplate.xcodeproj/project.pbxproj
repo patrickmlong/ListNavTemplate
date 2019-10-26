@@ -20,7 +20,6 @@
 		22FF86B4232EA9DC00A74880 /* SwiftUIViewTopLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF86B3232EA9DC00A74880 /* SwiftUIViewTopLevel.swift */; };
 		22FF86B6232EAAB700A74880 /* RegressionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF86B5232EAAB700A74880 /* RegressionListView.swift */; };
 		22FF86B8232EAAD400A74880 /* ClassificationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF86B7232EAAD400A74880 /* ClassificationListView.swift */; };
-		22FF86BA232EAAE400A74880 /* StatsConceptsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF86B9232EAAE400A74880 /* StatsConceptsListView.swift */; };
 		22FF86BC232EAAF400A74880 /* DeepLearningListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF86BB232EAAF400A74880 /* DeepLearningListView.swift */; };
 		22FF86C4233053A200A74880 /* ClusteringListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF86C3233053A200A74880 /* ClusteringListView.swift */; };
 /* End PBXBuildFile section */
@@ -41,7 +40,6 @@
 		22FF86B3232EA9DC00A74880 /* SwiftUIViewTopLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewTopLevel.swift; sourceTree = "<group>"; };
 		22FF86B5232EAAB700A74880 /* RegressionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegressionListView.swift; sourceTree = "<group>"; };
 		22FF86B7232EAAD400A74880 /* ClassificationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassificationListView.swift; sourceTree = "<group>"; };
-		22FF86B9232EAAE400A74880 /* StatsConceptsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsConceptsListView.swift; sourceTree = "<group>"; };
 		22FF86BB232EAAF400A74880 /* DeepLearningListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLearningListView.swift; sourceTree = "<group>"; };
 		22FF86C3233053A200A74880 /* ClusteringListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClusteringListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,17 +76,16 @@
 			children = (
 				2220DC9E23177E7500C67525 /* RootView.swift */,
 				22FF86B3232EA9DC00A74880 /* SwiftUIViewTopLevel.swift */,
-				22FF86B9232EAAE400A74880 /* StatsConceptsListView.swift */,
-				22FF86B7232EAAD400A74880 /* ClassificationListView.swift */,
 				22FF86B5232EAAB700A74880 /* RegressionListView.swift */,
+				22FF86B7232EAAD400A74880 /* ClassificationListView.swift */,
 				22FF86C3233053A200A74880 /* ClusteringListView.swift */,
 				22FF86BB232EAAF400A74880 /* DeepLearningListView.swift */,
 				2285E62B2364BCDA004207C1 /* MetricsListView.swift */,
 				2220DCA023177E7500C67525 /* YourDest.swift */,
 				2220DCAB231A1DC500C67525 /* Dest.swift */,
+				22FF86A323255FDF00A74880 /* MLNotes.swift */,
 				2220DC9D23177E7500C67525 /* AppDelegate.swift */,
 				2220DC9F23177E7500C67525 /* SceneDelegate.swift */,
-				22FF86A323255FDF00A74880 /* MLNotes.swift */,
 				2220DC8F23177E1200C67525 /* Assets.xcassets */,
 				2220DC9423177E1200C67525 /* LaunchScreen.storyboard */,
 				2220DC9723177E1200C67525 /* Info.plist */,
@@ -184,7 +181,6 @@
 				2220DCA523177E7600C67525 /* RootView.swift in Sources */,
 				2220DCA423177E7600C67525 /* AppDelegate.swift in Sources */,
 				22FF86B6232EAAB700A74880 /* RegressionListView.swift in Sources */,
-				22FF86BA232EAAE400A74880 /* StatsConceptsListView.swift in Sources */,
 				2220DCAC231A1DC500C67525 /* Dest.swift in Sources */,
 				22FF86B8232EAAD400A74880 /* ClassificationListView.swift in Sources */,
 				2285E62C2364BCDA004207C1 /* MetricsListView.swift in Sources */,

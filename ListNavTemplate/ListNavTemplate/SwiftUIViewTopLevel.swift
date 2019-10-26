@@ -15,32 +15,33 @@ struct SwiftUIViewTopLevel: View {
         
          Group {
             List {
-            link(icon: "list.bullet", label: basicStatsNotes[0].topicName,
+            link(icon: "stats_menu_icon", label: basicStatsNotes[0].topicName,
                      destination: Dest(imageName: basicStatsNotes[0].imageName))
-                .foregroundColor(.orange).font(.title)
-            link(icon: "list.bullet", label: "Feature Processing",
-                destination: StatsConceptsListView()).foregroundColor(.red).font(.title)
-            link(icon:"list.bullet", label: "Regression",
-                 destination: RegressionListView()).foregroundColor(.green).font(.title)
-            link(icon:"list.bullet", label: "Classification",
-                 destination: ClassificationListView()).foregroundColor(.blue).font(.title)
-                link(icon: "list.bullet", label: clusteringNotes[0].topicName,
+                .foregroundColor(.black).font(.title)
+            link(icon: "list.bullet", label: "Feature Engineering",
+                 destination: Dest(imageName: basicStatsNotes[0].imageName))
+            .foregroundColor(.black).font(.title)
+            link(icon:"regression_menu_icon", label: "Regression",
+                 destination: RegressionListView()).foregroundColor(.black).font(.title)
+            link(icon: "classification_menu_icon", label: "Classification",
+                 destination: ClassificationListView()).foregroundColor(.black).font(.title)
+                link(icon: "clustering_menu_icon", label: clusteringNotes[0].topicName,
                  destination: Dest(imageName: clusteringNotes[0].imageName))
-                    .foregroundColor(.red).font(.title)
+                    .foregroundColor(.black).font(.title)
             link(icon: "list.bullet", label: "Deep Learning",
-                 destination: DeepLearningListView()).foregroundColor(.purple).font(.title)
+                 destination: DeepLearningListView()).foregroundColor(.black).font(.title)
             link(icon: "list.bullet", label: modelValidationNotes[0].topicName,
                 destination: Dest(imageName: modelValidationNotes[0].imageName))
-                .foregroundColor(.blue).font(.title)
+                .foregroundColor(.black).font(.title)
             link(icon: "list.bullet", label: metricsNotes[0].topicName,
                  destination: Dest(imageName: metricsNotes[0].imageName))
-                .foregroundColor(.red).font(.title)
-            link(icon: "list.bullet", label: optimizationNotes[0].topicName,
+                .foregroundColor(.black).font(.title)
+            link(icon: "optimization_menu_icon", label: optimizationNotes[0].topicName,
                  destination: Dest(imageName: optimizationNotes[0].imageName))
-                .foregroundColor(.green).font(.title)
-            link(icon: "list.bullet", label: imbalancedDataNotes[0].topicName,
+                .foregroundColor(.black).font(.title)
+            link(icon: "class_imbalance_menu_icon", label: imbalancedDataNotes[0].topicName,
                 destination: Dest(imageName: imbalancedDataNotes[0].imageName))
-                .foregroundColor(.blue).font(.title)
+                .foregroundColor(.black).font(.title)
 
            .padding(.bottom, 400)
                 }.navigationBarTitle(Text("Data Science Notes"), displayMode: .large)
@@ -51,10 +52,11 @@ struct SwiftUIViewTopLevel: View {
     private func link<Destination: View>(icon: String, label: String, destination: Destination) -> some View {
         return NavigationLink(destination: destination) {
             HStack {
-                Image(systemName: icon)
+                Image(icon).resizable()
+                .frame(width: 50.0, height: 50.0)
                 Text(label)
             }
-        }.listRowBackground(Color.black)
+        }.listRowBackground(Color.white)
 
     }
 }
