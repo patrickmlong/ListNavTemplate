@@ -31,20 +31,20 @@ MLNotes(id: 0, topicName: "Basic Stats", imageName: "basic_stats")
 /* Regression */
 let regressionNotes: [MLNotes] = [
     MLNotes(id: 0, topicName: "Linear Regression", imageName: "linear_regression"),
-    MLNotes(id: 1, topicName: "KNN Regressor", imageName: "logistic_regression"),
-    MLNotes(id: 2, topicName: "Random Forest Regressor", imageName: "logistic_regression_assumptions"),
-    MLNotes(id: 3, topicName: "XGBoost Regressor", imageName: "logistic_regression"),
+//    MLNotes(id: 1, topicName: "KNN Regressor", imageName: "logistic_regression"),
+//    MLNotes(id: 2, topicName: "Random Forest Regressor", imageName: "logistic_regression_assumptions"),
+//    MLNotes(id: 3, topicName: "XGBoost Regressor", imageName: "logistic_regression"),
 ]
 
 /* Classification */
 let classificationNotes: [MLNotes] = [
     MLNotes(id: 0, topicName: "Logistic Regression", imageName: "logistic_regression"),
-    MLNotes(id: 1, topicName: "Decision Tree", imageName: "logistic_regression"),
-    MLNotes(id: 2, topicName: "Random Forst", imageName: "logistic_regression"),
-    MLNotes(id: 3, topicName: "KNN", imageName: "logistic_regression"),
-    MLNotes(id: 4, topicName: "SVM", imageName: "logistic_regression"),
-    MLNotes(id: 5, topicName: "LDA", imageName: "logistic_regression"),
-    MLNotes(id: 6, topicName: "Naive Bayes", imageName: "logistic_regression"),
+    MLNotes(id: 1, topicName: "Decision Tree", imageName: "decision_tree"),
+    MLNotes(id: 2, topicName: "Random Forst", imageName: "random_forest"),
+    MLNotes(id: 3, topicName: "KNN", imageName: "knn"),
+    MLNotes(id: 4, topicName: "SVM", imageName: "svm"),
+    MLNotes(id: 5, topicName: "LDA", imageName: "linear_discriminant_analysis"),
+    MLNotes(id: 6, topicName: "Naive Bayes", imageName: "naive_bayes"),
     MLNotes(id: 7, topicName: "XGBoost", imageName: "logistic_regression"),
 ]
 
@@ -64,4 +64,7 @@ let modelValidationNotes: [MLNotes] = [
 MLNotes(id: 0, topicName: "Model Validation", imageName: "model_validation")
 ]
 
+let metricsNotes: [MLNotes] = [
+MLNotes(id: 0, topicName: "Metrics", imageName: "metrics")
+]
 

@@ -32,8 +32,9 @@ struct SwiftUIViewTopLevel: View {
             link(icon: "list.bullet", label: modelValidationNotes[0].topicName,
                 destination: Dest(imageName: modelValidationNotes[0].imageName))
                 .foregroundColor(.blue).font(.title)
-            link(icon: "list.bullet", label: "Metrics",
-                 destination: DeepLearningListView()).foregroundColor(.purple).font(.title)
+            link(icon: "list.bullet", label: metricsNotes[0].topicName,
+                 destination: Dest(imageName: metricsNotes[0].imageName))
+                .foregroundColor(.red).font(.title)
             link(icon: "list.bullet", label: optimizationNotes[0].topicName,
                  destination: Dest(imageName: optimizationNotes[0].imageName))
                 .foregroundColor(.green).font(.title)
