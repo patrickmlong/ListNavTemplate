@@ -9,15 +9,24 @@
 import SwiftUI
 
 struct DeepLearningListView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
+        var body: some View {
+            
+            Group {
+                List(topicRange) { i in
+                self.link(label: deepLearningNotes[i].topicName,
+                          destination: Dest(imageName: deepLearningNotes[i].imageName))
+                }.navigationBarTitle(Text("Deep Learning"), displayMode: .large)
+            }
+        }
+        
+        let topicRange = 0..<deepLearningNotes.count
+        
+        private func link<Destination: View>(label: String,
+                                             destination: Destination) -> some View {
+            return NavigationLink(destination: destination) {
+                HStack {
+                    Text(label)
+                }
+            }
+        }
     }
-}
-
-#if DEBUG
-struct DeepLearningListView_Previews: PreviewProvider {
-    static var previews: some View {
-        DeepLearningListView()
-    }
-}
-#endif

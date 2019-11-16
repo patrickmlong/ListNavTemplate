@@ -17,15 +17,10 @@ struct MLNotes: Identifiable {
 }
 
 
-/*struct OverallTopic {
-    var OverallTopic: String
-
-
-let goldenState = Team(color: Color(red: 0.965, green: 0.761, blue: 0.275), imageName: "gs")
-let toronto = Team(color: Color(red: 0.718, green: 0.165, blue: 0.263), imageName: "tr")
-*/
-let basicStatsNotes: [MLNotes] = [
-MLNotes(id: 0, topicName: "Basic Statistics", imageName: "basic_stats")
+let statsNotes: [MLNotes] = [
+MLNotes(id: 0, topicName: "Measures of Dispersion", imageName: "dispersion"),
+MLNotes(id: 1, topicName: "Comparison Testing", imageName: "comparison_metrics"),
+MLNotes(id: 2, topicName: "Hypothesis Testing", imageName: "hypothesis_testing"),
 ]
 
 /* Regression */
@@ -39,13 +34,13 @@ let regressionNotes: [MLNotes] = [
 /* Classification */
 let classificationNotes: [MLNotes] = [
     MLNotes(id: 0, topicName: "Logistic Regression", imageName: "logistic_regression"),
-    MLNotes(id: 1, topicName: "Decision Tree", imageName: "decision_tree"),
-    MLNotes(id: 2, topicName: "Random Forst", imageName: "random_forest"),
+    MLNotes(id: 1, topicName: "Decision Tree", imageName: "decision_trees"),
+    MLNotes(id: 2, topicName: "Random Forest", imageName: "random_forest"),
     MLNotes(id: 3, topicName: "KNN", imageName: "knn"),
     MLNotes(id: 4, topicName: "SVM", imageName: "svm"),
     MLNotes(id: 5, topicName: "LDA", imageName: "linear_discriminant_analysis"),
     MLNotes(id: 6, topicName: "Naive Bayes", imageName: "naive_bayes"),
-    MLNotes(id: 7, topicName: "XGBoost", imageName: "logistic_regression"),
+    MLNotes(id: 7, topicName: "XGBoost", imageName: "xgboost"),
 ]
 
 let clusteringNotes: [MLNotes] = [
@@ -53,11 +48,11 @@ MLNotes(id: 0, topicName: "Clustering", imageName: "clustering")
 ]
 
 let optimizationNotes: [MLNotes] = [
-MLNotes(id: 0, topicName: "Optimization", imageName: "optimization")
+MLNotes(id: 0, topicName: "Optimization", imageName: "loss_functions")
 ]
 
 let imbalancedDataNotes: [MLNotes] = [
-MLNotes(id: 0, topicName: "Imbalanced Data", imageName: "imbalanced_data")
+MLNotes(id: 0, topicName: "Imbalanced Data", imageName: "class_imbalance")
 ]
 
 let modelValidationNotes: [MLNotes] = [
@@ -68,3 +63,9 @@ let metricsNotes: [MLNotes] = [
 MLNotes(id: 0, topicName: "Metrics", imageName: "metrics")
 ]
 
+let deepLearningNotes: [MLNotes] = [
+MLNotes(id: 0, topicName: "Neural Networks Overview", imageName: "ann"),
+MLNotes(id: 2, topicName: "Activation Functions", imageName: "activation_functions"),
+MLNotes(id: 1, topicName: "Convoluational Neural Networks", imageName: "cnn"),
+MLNotes(id: 2, topicName: "Recurrent Neural Networks", imageName: "rnn"),
+]

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2206F61D2378C9A9003182D7 /* StatsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2206F61C2378C9A9003182D7 /* StatsListView.swift */; };
 		2220DC9023177E1200C67525 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2220DC8F23177E1200C67525 /* Assets.xcassets */; };
 		2220DC9323177E1200C67525 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2220DC9223177E1200C67525 /* Preview Assets.xcassets */; };
 		2220DC9623177E1200C67525 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2220DC9423177E1200C67525 /* LaunchScreen.storyboard */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2206F61C2378C9A9003182D7 /* StatsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsListView.swift; sourceTree = "<group>"; };
 		2220DC8623177E0F00C67525 /* ListNavTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListNavTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2220DC8F23177E1200C67525 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2220DC9223177E1200C67525 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -79,8 +81,9 @@
 				22FF86B5232EAAB700A74880 /* RegressionListView.swift */,
 				22FF86B7232EAAD400A74880 /* ClassificationListView.swift */,
 				22FF86C3233053A200A74880 /* ClusteringListView.swift */,
-				22FF86BB232EAAF400A74880 /* DeepLearningListView.swift */,
 				2285E62B2364BCDA004207C1 /* MetricsListView.swift */,
+				2206F61C2378C9A9003182D7 /* StatsListView.swift */,
+				22FF86BB232EAAF400A74880 /* DeepLearningListView.swift */,
 				2220DCA023177E7500C67525 /* YourDest.swift */,
 				2220DCAB231A1DC500C67525 /* Dest.swift */,
 				22FF86A323255FDF00A74880 /* MLNotes.swift */,
@@ -184,6 +187,7 @@
 				2220DCAC231A1DC500C67525 /* Dest.swift in Sources */,
 				22FF86B8232EAAD400A74880 /* ClassificationListView.swift in Sources */,
 				2285E62C2364BCDA004207C1 /* MetricsListView.swift in Sources */,
+				2206F61D2378C9A9003182D7 /* StatsListView.swift in Sources */,
 				22FF86C4233053A200A74880 /* ClusteringListView.swift in Sources */,
 				2220DCA623177E7600C67525 /* SceneDelegate.swift in Sources */,
 			);

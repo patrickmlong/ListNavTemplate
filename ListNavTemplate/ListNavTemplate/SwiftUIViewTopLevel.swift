@@ -15,30 +15,40 @@ struct SwiftUIViewTopLevel: View {
         
          Group {
             List {
-            link(icon: "stats_menu_icon", label: basicStatsNotes[0].topicName,
-                     destination: Dest(imageName: basicStatsNotes[0].imageName))
+                
+            link(icon: "stats_menu_icon", label: "Statistics",
+                 destination: StatsListView())
                 .foregroundColor(.black).font(.title)
-            link(icon: "list.bullet", label: "Feature Engineering",
-                 destination: Dest(imageName: basicStatsNotes[0].imageName))
+                
+            link(icon: "feature_engineering_menu_icon", label: "Feature Engineering",
+                 destination: Dest(imageName: statsNotes[0].imageName))
             .foregroundColor(.black).font(.title)
+                
             link(icon:"regression_menu_icon", label: "Regression",
                  destination: RegressionListView()).foregroundColor(.black).font(.title)
+                
             link(icon: "classification_menu_icon", label: "Classification",
                  destination: ClassificationListView()).foregroundColor(.black).font(.title)
-                link(icon: "clustering_menu_icon", label: clusteringNotes[0].topicName,
+            
+            link(icon: "clustering_menu_icon", label: clusteringNotes[0].topicName,
                  destination: Dest(imageName: clusteringNotes[0].imageName))
                     .foregroundColor(.black).font(.title)
-            link(icon: "list.bullet", label: "Deep Learning",
+                
+            link(icon: "menu_ann", label: "Deep Learning",
                  destination: DeepLearningListView()).foregroundColor(.black).font(.title)
-            link(icon: "list.bullet", label: modelValidationNotes[0].topicName,
+            
+            link(icon: "model_validation_menu_icon", label: modelValidationNotes[0].topicName,
                 destination: Dest(imageName: modelValidationNotes[0].imageName))
                 .foregroundColor(.black).font(.title)
-            link(icon: "list.bullet", label: metricsNotes[0].topicName,
+            
+            link(icon: "metrics_menu_icon", label: metricsNotes[0].topicName,
                  destination: Dest(imageName: metricsNotes[0].imageName))
                 .foregroundColor(.black).font(.title)
+                
             link(icon: "optimization_menu_icon", label: optimizationNotes[0].topicName,
                  destination: Dest(imageName: optimizationNotes[0].imageName))
                 .foregroundColor(.black).font(.title)
+                
             link(icon: "class_imbalance_menu_icon", label: imbalancedDataNotes[0].topicName,
                 destination: Dest(imageName: imbalancedDataNotes[0].imageName))
                 .foregroundColor(.black).font(.title)
