@@ -7,11 +7,11 @@ TODO: MVP - completed
 
 TODO: Deploy on local device - completed
 
-TODO: Refine - subtopics
+TODO: Refine - subtopics - pending
 
-TODO: Content review/QC
+TODO: Content review/QC - pending
 
-TODO: Retest deployment with swiftUI updates
+TODO: Retest deployment with swiftUI updates - pending
 
 <img src="https://github.com/patrickmlong/ListNavTemplate/blob/master/mockup_home.png" height="800" title="Test Home Screen">
 
