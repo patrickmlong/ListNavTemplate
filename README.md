@@ -3,7 +3,7 @@
 TODO: MVP - completed
 * Home menu of DS topics
 * Subtopic menus (navigation from list navigations for above)
-* Hand-drawn illustrations, text for final navigation subtopics e.g. (home) supervised learning -> (submenu) XGBoost -> XGBoost tutorial.
+* Hand-drawn illustrations, text for final navigation subtopics e.g. (home) supervised learning -> (submenu) XGBoost -> XGBoost.
 
 TODO: Deploy on local device - completed
 
