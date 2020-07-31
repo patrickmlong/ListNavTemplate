@@ -4,9 +4,9 @@ MVP - completed
 * Home menu of DS topics
 * Subtopic menus (navigation from list navigations for above)
 * Hand-drawn illustrations, text for final navigation subtopics e.g. (home) supervised learning -> (submenu) XGBoost -> XGBoost.
+* Deploy on local device - completed
 
 TODO:
-* Deploy on local device - completed
 * Refine - subtopics - pending
 * Content review/QC - pending
 * Retest deployment with swiftUI updates - pending
