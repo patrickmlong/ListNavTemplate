@@ -11,7 +11,9 @@ TODO:
 * Content review/QC - pending
 * Retest deployment with swiftUI updates - pending
 
-<img src="https://github.com/patrickmlong/ListNavTemplate/blob/master/mockup_home.png" height="800" title="Test Home Screen">
+<img src="https://github.com/patrickmlong/ListNavTemplate/blob/master/ios_ds_app_scheme.png" height="400" title="WIP Schematic">
+
+<img src="https://github.com/patrickmlong/ListNavTemplate/blob/master/mockup_home.png" height="400" title="Test Home Screen">
 
 
 
